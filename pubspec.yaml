@@ -1,0 +1,11 @@
+name: pooled_map
+version: 1.0.0
+description: An asynchronous map for Dart that locks keys, to avoid the Thundering Herd problem.
+author: Tobechukwu Osakwe <thosakwe@gmail.com>
+homepage: https://github.com/thosakwe/pooled_map
+environment:
+  sdk: ">=1.8.0 <3.0.0"
+dependencies:
+  pool: ^1.0.0
+dev_dependencies:
+  test: ^0.12.0
